@@ -24,6 +24,6 @@
   "dependencies": {
     "angular": "1.4.14",
     "angular-alert-banner": "*",
-    "banner": "https://git.illumina.com/PlatformServices/user-services.git"
+    "banner": "https://github.com/madheshr/alerttest.git"
   }
 }
