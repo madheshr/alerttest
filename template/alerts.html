@@ -1,0 +1,16 @@
+<!-- Alert banners -->
+ <div ng-show="(alertType === 'success')" class="has-confirmed-email clearfix alert ilmn-alert-banner ilmn-alert-banner--success" role="alert">
+     <p><span class="ilmn-alert-banner__icon fa fa-check-circle"></span> {{ alertMessage }} </p>
+ </div>
+
+ <div ng-show="(alertType === 'error')" class="has-confirmation-error clearfix alert ilmn-alert-banner ilmn-alert-banner--danger ilmn-alert-banner--has-buttons ilmn-alert-banner--2-buttons" role="alert">
+     <p><span class="ilmn-alert-banner__icon fa fa-exclamation-circle"></span> {{ alertMessage }} </p>
+     <div class="ilmn-alert-banner__buttons" ng-show="buttonEnabled">
+         <button type="button" class="btn btn-white">{{ buttonName }}</button>
+     </div>
+ </div>
+
+ <div ng-show="(alertType === 'info')" class="has-vpn-error clearfix alert ilmn-alert-banner ilmn-alert-banner--warning" role="alert">
+     <p><span class="ilmn-alert-banner__icon fa fa-exclamation-circle"></span> {{ alertMessage }} </p>
+ </div>
+ <!-- End alert banners -->

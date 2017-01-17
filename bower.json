@@ -1,0 +1,29 @@
+{
+  "name": "Banner",
+  "version": "0.1.0",
+  "authors": [
+    "mrajasekhar@illumina.com",
+    "prabhu@illumina.com"
+  ],
+  "description": "Customized Banner solution for AngularJS based applications",
+  "main": "alerts.js",
+  "keywords": [
+    "Banner",
+    "Component",
+    "Angular"
+  ],
+  "license": "MIT",
+  "homepage": "www.illumina.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.4.14",
+    "angular-alert-banner": "*",
+    "banner": "https://git.illumina.com/PlatformServices/user-services.git"
+  }
+}
