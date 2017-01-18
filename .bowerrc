@@ -1,8 +1,8 @@
 {
-  "directory": "bower_components"
+  "directory": "bower_components",
   "scripts": {
     "preinstall": "echo 'Preparing for pre-install'",
     "postinstall": "echo 'Preparing for post-install'",
-    "preuninstall": "echo 'Preparing for pre-uninstall'",
+    "preuninstall": "echo 'Preparing for pre-uninstall'"
   }
 }
